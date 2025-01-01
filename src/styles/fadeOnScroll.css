@@ -1,0 +1,12 @@
+.fade-in {
+    opacity: 0;
+    visibility: hidden; /* Oculta el elemento */
+    transition: opacity 1s ease-in-out, visibility 0.7s ease-in-out;
+
+    display: flex;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    visibility: visible; /* Muestra el elemento */
+}

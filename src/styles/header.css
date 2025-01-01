@@ -1,0 +1,176 @@
+header{
+    width: 90%;
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: row;
+
+
+}
+
+
+.logoContainer{
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: row;
+
+}
+
+.logo{
+    width: 50%;
+    height: 70%;
+    object-fit: contain;
+
+
+    
+}
+
+.navBarContainer{
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    border-radius: 8px;
+    border:  1px solid #FFF;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+button{
+    border: none;
+    color: white;
+    background: #242323;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    width: auto;
+    height: 100%;
+
+    font-size: .7vw;
+    font-family: "Roboto-Mono";
+    
+    border: 1px solid #242323;
+    transition: border-color 0.3s ease; /* Transición al color del borde */;
+}
+
+.contactText{
+    font-size: .7vw;
+    margin-left: 5px;
+}
+
+
+.buttonsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 70%;
+}
+
+
+.contactButtonContainer{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.contactButtonElement{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #242323;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.ellipse{
+    width: 33.333333333333%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6A9955;
+    border-radius: 100px;
+
+
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+
+.contactText{
+    font-size: .7vw;
+    transition: transform 0.3s ease, opacity 0.5s ease;
+}
+
+
+
+.contactButtonElement:hover {
+    background-color: #6A9955; /* Fondo verde */
+  }
+  
+  .contactButtonElement:hover .ellipse {
+    transform: translateX(200%); /* Mueve la pelota hacia la derecha */
+    border: 1px solid #242323;
+  }
+  
+  .contactButtonElement:hover .contactText {
+    opacity: 0;
+    
+  }
+
+  button:hover{
+    border-color: #FFF; /* Aparece el borde al hacer hover */
+
+  }
+
+
+@media (max-width: 768px){
+    nav{
+        width: 100%;
+    }
+
+    .ellipse{
+        border-radius: 100%;
+    }
+
+    .contactButtonElement{
+        width: 100%;
+    }
+
+    .contactText{
+        font-size: 1.5vw;
+    }
+
+    button{
+        font-size: 1.5vw;
+    }
+}

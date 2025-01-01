@@ -1,0 +1,95 @@
+:root{
+    background-color: #131313;
+    color: #FFFFFF;
+
+    padding-top: 50px;
+    overflow-x: hidden;
+    
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.dotColor {
+    width: 1000px;
+    height: 1000px;
+
+    background-image: radial-gradient(closest-side, rgb(210, 59, 155), rgba(210, 59, 155, 0.116));
+    border-radius: 50%;
+    
+    position: absolute;
+
+    filter: blur(100px);
+    opacity: 1;
+    top: 190%; 
+    left: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Envía el elemento al fondo */
+}
+
+.dotSkills{
+    top: 70%;
+    left: 25%;
+}
+
+.dotProjects{
+    top: 70%;
+    left: 100%;
+}
+
+.dotSocial{ 
+    top: 70%;
+    left: -10%;
+
+}
+
+.dotContact{
+    top: 60%;
+    left: 120%;
+}
+
+
+
+@media (max-width: 768px){
+    .dotColor{
+        width: 250px;
+        height: 250px;
+        filter: blur(50px);
+
+        top: 100%;
+        left: 100%;
+    }
+
+    .dotSkills{
+        top: 60%;
+        left: 30%;
+    }
+
+    .dotProjects{
+        top: 60%;
+        left: 100%;
+    }
+
+    .dotSocial{
+        top: 60%;
+        left: -10%;
+    
+    }
+    
+}
+
+

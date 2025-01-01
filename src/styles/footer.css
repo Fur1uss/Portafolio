@@ -1,0 +1,292 @@
+footer{
+
+    
+    width: 120%;
+    height: 50vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: row;
+
+    margin-top: 300px;
+
+
+    background-color: #111111;
+
+    z-index: 100;
+
+
+
+}
+
+
+.buttonsFooterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 40%;
+    height: 100%;
+
+
+
+}
+
+.logoFooterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    width: 100%;
+    height: 40%;
+
+}
+
+.logoFooterContainer img{
+    width: 50%;
+
+    margin-left: 150px;
+    object-fit: contain;
+
+    margin-right: 50px;
+}
+
+.buttonsItemsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100%;
+    height: 60%;
+
+    margin-right: 100px;
+
+}
+
+.columnItemsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 20%;
+    height: 80%;
+
+
+
+
+}
+
+.columnItemsContainer h3{
+    font-family: "CascadiaMono";
+    font-size: 1.1rem;
+
+    color: white;
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    color: white;
+
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+li{
+    margin-bottom: 10px;
+
+    cursor: pointer;
+
+    font-family: "CascadiaMonoLight";
+    font-size: .9rem;
+
+}
+
+.contactFooterContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+    height: 100%;
+
+    margin-right: 100px;
+
+
+}
+
+.contactItemFooterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 70%;
+    height: 70%;
+
+}
+
+.contactItemFooterContainer h3{
+    font-family: "CascadiaMono";
+    font-size: 1.5rem;
+
+    color: white;
+}
+.contactItemFooterContainer p{
+    font-family: "CascadiaMonoLight";
+    font-size: 1rem;
+
+    color: white;
+}
+
+.contactFooterItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 70%;
+    height: 15%;
+
+}
+
+.contactFooterItem input{
+    width: 75%;
+    height: 100%;
+
+    border: none;
+
+    background-color: FFFFFF;
+    border-radius: 12px;
+
+    color: #3C3C3C;
+
+    font-family: "CascadiaMonoLight";
+    font-size: 1rem;
+
+    margin-right: 10px;
+}
+
+.sendContactFooterButton{
+    width: 10%;
+    height: 100%;
+
+    border: none;
+
+    background-color: #3C2D38;
+    border-radius: 12px;
+
+    color: white;
+
+    font-family: "CascadiaMonoBold";
+    font-size: 1rem;
+
+    cursor: pointer;
+
+    transition: all .3s;
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+    footer{
+        width: 165%;
+        height: 25vh;
+        margin-top: 100px
+    }
+
+    .buttonsFooterContainer{
+        width: 60%;
+    }
+
+    .contactFooterContainer{
+        width: 40%;
+    }
+
+    .logoFooterContainer{
+        margin-right: 20px;
+    }
+
+    .logoFooterContainer img{
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    .buttonsItemsContainer{
+        margin-right: 20px;
+    }
+
+    .columnItemsContainer{
+        width: 20%;
+    }
+
+    .firstcolumn{
+        margin-left: 20px;
+    }
+
+    .columnItemsContainer h3{
+        font-size: .5rem;
+    }
+
+    li{
+        font-size: .35rem;
+        
+        margin-bottom: 3px;
+    }
+
+    .contactItemFooterContainer{
+        width: 90%;
+    }
+
+    .contactItemFooterContainer h3{
+        font-size: 1rem;
+    }
+
+    .contactItemFooterContainer p{
+        font-size: .5rem;
+    }
+
+    .contactFooterItem{
+        width: 90%;
+        height: 10%;
+    }
+
+    .contactFooterItem input{
+        width: 70%;
+        height: 100%;
+
+        font-size: .5rem;
+
+        border-radius: 3px;
+    }
+
+    .sendContactFooterButton{
+        width: 10%;
+
+        font-size: .2rem;
+
+        border-radius: 3px;
+    }
+
+
+}
+
+
+
